@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommand>C:\Program Files %28x86%29\Python37-32\python.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>g:\Code\miniaicups\miniaicups\paperio\local_runner\localrunner -p1 g:\Code\miniaicup4\PaperIo\Debug\PaperIO.exe</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommand>python</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>g:\Code\miniaicups\miniaicups\paperio\local_runner\localrunner -p1 g:\Code\miniaicup4\PaperIo\Debug\PaperIO.exe</LocalDebuggerCommandArguments>
+    <LocalDebuggerAttach>true</LocalDebuggerAttach>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWE|x64'">
+    <LocalDebuggerCommand>python</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>g:\Code\miniaicups\miniaicups\paperio\local_runner\localrunner -p1 g:\Code\miniaicup4\PaperIo\Debug\PaperIO.exe</LocalDebuggerCommandArguments>
+    <LocalDebuggerAttach>true</LocalDebuggerAttach>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>c:\Program Files (x86)\Python37-32\python.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>g:\Code\miniaicups\miniaicups\paperio\local_runner\localrunner.py -p1 g:\Code\miniaicups\miniaicups\paperio\local_runner\PaperIO.exe</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWE|Win32'">
+    <LocalDebuggerCommand>c:\Program Files (x86)\Python37-32\python.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>g:\Code\miniaicups\miniaicups\paperio\local_runner\localrunner.py -p1 g:\Code\miniaicups\miniaicups\paperio\local_runner\PaperIO.exe -p2 simple_bot</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommand>c:\Program Files (x86)\Python37-32\python.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>g:\Code\miniaicups\miniaicups\paperio\local_runner\localrunner.py -p1 g:\Code\miniaicups\miniaicups\paperio\local_runner\PaperIO.exe</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>

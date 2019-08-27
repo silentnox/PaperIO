@@ -1,0 +1,46 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.cpp
+g:\code\miniaicup4\paperio\paperio\helpers.h(8): warning C4005: '_ITERATOR_DEBUG_LEVEL': macro redefinition
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\yvals.h(828): note: see previous definition of '_ITERATOR_DEBUG_LEVEL'
+g:\code\miniaicup4\paperio\paperio\helpers.h(232): warning C4244: 'return': conversion from 'time_t' to 'long', possible loss of data
+g:\code\miniaicup4\paperio\paperio\helpers.h(235): warning C4244: 'return': conversion from 'time_t' to 'long', possible loss of data
+g:\code\miniaicup4\paperio\paperio\helpers.h(579): warning C4100: 'InNormal': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\helpers.h(579): warning C4100: 'InPoint': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(261): warning C4100: 'sim': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(261): warning C4100: 'in': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(264): warning C4100: 'killer': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(264): warning C4100: 'cod': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(267): warning C4100: 'killed': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(267): warning C4100: 'sim': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(267): warning C4100: 'in': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(297): warning C4099: 'Player': type name first seen using 'struct' now seen using 'class'
+  g:\code\miniaicup4\paperio\paperio\main.cpp(297): note: see declaration of 'Player'
+g:\code\miniaicup4\paperio\paperio\main.cpp(411): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+g:\code\miniaicup4\paperio\paperio\main.cpp(414): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+g:\code\miniaicup4\paperio\paperio\main.cpp(564): warning C4189: 'numcap': local variable is initialized but not referenced
+g:\code\miniaicup4\paperio\paperio\main.cpp(940): warning C4018: '<': signed/unsigned mismatch
+g:\code\miniaicup4\paperio\paperio\main.cpp(949): warning C4018: '<': signed/unsigned mismatch
+g:\code\miniaicup4\paperio\paperio\main.cpp(965): warning C4018: '<': signed/unsigned mismatch
+g:\code\miniaicup4\paperio\paperio\main.cpp(979): warning C4018: '<': signed/unsigned mismatch
+g:\code\miniaicup4\paperio\paperio\main.cpp(1179): warning C4018: '>': signed/unsigned mismatch
+g:\code\miniaicup4\paperio\paperio\main.cpp(1224): warning C4018: '<': signed/unsigned mismatch
+g:\code\miniaicup4\paperio\paperio\main.cpp(1262): warning C4458: declaration of 'genom' hides class member
+  g:\code\miniaicup4\paperio\paperio\main.cpp(1022): note: see declaration of 'Scheduled::genom'
+g:\code\miniaicup4\paperio\paperio\main.cpp(1351): warning C4018: '<': signed/unsigned mismatch
+g:\code\miniaicup4\paperio\paperio\main.cpp(1384): warning C4100: 'sim': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(1384): warning C4100: 'client': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(1390): warning C4100: 'sim': unreferenced formal parameter
+g:\code\miniaicup4\paperio\paperio\main.cpp(1526): warning C4305: 'argument': truncation from 'double' to 'float'
+g:\code\miniaicup4\paperio\paperio\main.cpp(1526): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+g:\code\miniaicup4\paperio\paperio\main.cpp(1535): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+g:\code\miniaicup4\paperio\paperio\main.cpp(1536): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+g:\code\miniaicup4\paperio\paperio\main.cpp(1537): warning C4305: 'argument': truncation from 'double' to 'float'
+g:\code\miniaicup4\paperio\paperio\main.cpp(1537): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+g:\code\miniaicup4\paperio\paperio\main.cpp(1546): warning C4189: 'totalFit': local variable is initialized but not referenced
+g:\code\miniaicup4\paperio\paperio\main.cpp(1624): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\code\miniaicup4\paperio\paperio\main.cpp(1685): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+g:\code\miniaicup4\paperio\paperio\main.cpp(1686): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+g:\code\miniaicup4\paperio\paperio\main.cpp(1686): warning C4189: 'ms2': local variable is initialized but not referenced
+g:\code\miniaicup4\paperio\paperio\main.cpp(1685): warning C4189: 'ms': local variable is initialized but not referenced
+g:\code\miniaicup4\paperio\paperio\main.cpp(1748): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PaperIo.vcxproj -> G:\Code\miniaicup4\PaperIo\PaperIo\..\..\..\miniaicups\miniaicups\paperio\local_runner\PaperIo.exe
